@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2d3047;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(10, 10, 56);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.password {
+  background-color: #7d8491;
+  width: 50%;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.passwords {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+.green {
+  color: #88d498;
+}
+
+h3 {
+  color: beige;
+}
+
+button {
+  background-color: #88d498;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #7d8491;
+  color: whitesmoke;
+}
